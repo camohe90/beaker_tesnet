@@ -50,18 +50,19 @@ pip install python-dotenv
 
 ## Ahora si ya estamos listos 
 
-1. Debes ejectuar el script deploy, el cual va a desplegar el contrato inteligente en la red Testnet. Si el proceso se realizó de forma exitosa deberias ver una salida en tu termina como la siguiente
+1. Debes ejectuar el script deploy.py, el cual va a desplegar el contrato inteligente en la red Testnet. Si el proceso se realizó de forma exitosa deberias ver una salida en tu termina como la siguiente.
 
 ![Contrato desplega](image/deploy.png)
 
-2. 
+2. Ahora solamente resta ejecutar el script client.py, en el cual en la linea 33 podemos cambiar el nombre que deseamos se envie a la función del contrato inteligente.
 
 
 ## Recursos
 
-Para empezar con Algorand te aconsejamos los siguiente recursos:
+Si quieres profundizar sobre Algorand y Beaker puedes ingresar en los siguientes enlaces:
 
 * [Documentación Algorand](https://developer.algorand.org/)
+* [Documentación Beaker](https://beaker.algo.xyz/)
 
 
 ## Licencia
