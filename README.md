@@ -19,7 +19,13 @@ Antes de crear nuestro contrato inteligente debemos cumplir con los siguientes p
 pip install py-algorand-sdk 
 ```
 
-2. Crear una cuenta
+2. Instalar Beaker actualmente requiere una versión >= 3.10, para ello debes ejecutar el siguiente comando.
+
+```bash
+pip install beaker-pyteal 
+```
+
+3. Crear una cuenta
 
 Vamos usar el SDK para crear una nueva cuenta, para ello simplemente debemos ejecutar el comando
 
@@ -35,7 +41,7 @@ Si ya tienes una cuenta creada simplemente debemos validar que tenga fondos sufi
 
 Para fondear la cuenta con el [Algo Dispenser](https://dispenser.testnet.aws.algodev.network/)
 
-3. Crear archivo de variables de entorno
+4. Crear archivo de variables de entorno
 
 Puedes agregar tus variables de entorno en el archivo `.env`, reemplazando los datos de acuerdo a los que te arroje el script create_account.py este proceso se debe realizar solamente una vez:
 
@@ -56,14 +62,12 @@ pip install python-dotenv
 
 2. Ahora solamente resta ejecutar el script client.py, en el cual en la linea 33 podemos cambiar el nombre que deseamos se envie a la función del contrato inteligente.
 
-
 ## Recursos
 
 Si quieres profundizar sobre Algorand y Beaker puedes ingresar en los siguientes enlaces:
 
 * [Documentación Algorand](https://developer.algorand.org/)
 * [Documentación Beaker](https://beaker.algo.xyz/)
-
 
 ## Licencia
 
