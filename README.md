@@ -1,4 +1,4 @@
-# Crear tu contrata inteligente con beaker
+# Crear tu contrato inteligente con beaker
 
 En este repositorio vamos usar el SDK de python de algorand junto a Beaker para crear nuestro primer contrato inteligente desplegado en testnet.
 
